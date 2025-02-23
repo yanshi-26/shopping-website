@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="brand">Modern Store</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="container">
+            <h1>Welcome to Modern Store</h1>
+            <p>Discover our latest collection of premium products</p>
+            <input type="text" id="search" placeholder="Search products..." class="search-box">
+        </div>
+    </div>
+
+    <!-- Product Grid -->
+    <main class="container">
+        <div class="product-grid">
+            <div class="product-card" data-name="headphones">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e" alt="Headphones">
+                <div class="product-info">
+                    <h3>Premium Wireless Headphones</h3>
+                    <p>Crystal-clear sound with wireless freedom.</p>
+                    <div class="product-footer">
+                        <span class="price">₹11,249.25</span>
+                        <a href="cart/cart-headphone.html" class="add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-name="watch">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30" alt="Watch">
+                <div class="product-info">
+                    <h3>Luxury Smart Watch</h3>
+                    <p>Stay connected with health tracking features.</p>
+                    <div class="product-footer">
+                        <span class="price">₹14,999.25</span>
+                        <a href="cart/cart-smartwatch.html" class="add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-name="wallet">
+                <img src="https://images.unsplash.com/photo-1627123424574-724758594e93" alt="Wallet">
+                <div class="product-info">
+                    <h3>Leather Wallet</h3>
+                    <p>Genuine leather with RFID protection.</p>
+                    <div class="product-footer">
+                        <span class="price">₹3,749.25</span>
+                        <a href="cart/cart-wallet.html" class="add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-name="speaker">
+                <img src="https://images.unsplash.com/photo-1529359744902-86b2ab9edaea" alt="Speaker">
+                <div class="product-info">
+                    <h3>Bluetooth Speaker</h3>
+                    <p>Waterproof with 20-hour battery life.</p>
+                    <div class="product-footer">
+                        <span class="price">₹5,999.25</span>
+                        <a href="cart/cart-speaker.html" class="add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-name="game controller">
+                <img src="https://images.unsplash.com/photo-1593118247619-e2d6f056869e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Game Controller">
+                <div class="product-info">
+                    <h3>Game Controller</h3>
+                    <p>Wireless gaming controller for precision.</p>
+                    <div class="product-footer">
+                        <span class="price">₹7,999</span>
+                        <a href="cart/cart-controller.html" class="add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-name="camping tent">
+                <img src="https://images.unsplash.com/photo-1597514662676-a4fad85107b9?q=80&w=1866&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Camping Tent">
+                <div class="product-info">
+                    <h3>Camping Tent</h3>
+                    <p>Foldable temporary dwelling on poles and ropes.</p>
+                    <div class="product-footer">
+                        <span class="price">₹5,999.25</span>
+                        <a href="cart/cart-tent.html" class="add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-name="playstation 5">
+                <img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Playstation 5">
+                <div class="product-info">
+                    <h3>Playstation 5</h3>
+                    <p>Home video game console.</p>
+                    <div class="product-footer">
+                        <span class="price">₹57,999.25</span>
+                        <a href="cart/cart-playstation.html" class="add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-name="guitar">
+                <img src="https://images.unsplash.com/photo-1605020420620-20c943cc4669?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Guitar">
+                <div class="product-info">
+                    <h3>Guitar</h3>
+                    <p>Stringed musical instrument that's usually fretted.</p>
+                    <div class="product-footer">
+                        <span class="price">₹4,999</span>
+                        <a href="cart/cart-guitar.html" class="add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-name="sneakers">
+                <img src="https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sneakers">
+                <div class="product-info">
+                    <h3>Sneakers</h3>
+                    <p>Safe Covering below ankle.</p>
+                    <div class="product-footer">
+                        <span class="price">₹9,789</span>
+                        <a href="cart/cart-sneakers.html" class="add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-name="camera lens">
+                <img src="https://images.unsplash.com/photo-1582994254571-52c62d96ebab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Camera Lens">
+                <div class="product-info">
+                    <h3>Camera Lens</h3>
+                    <p>Photographic lens used in conjunction with camera body to store image electronically or chemically.</p>
+                    <div class="product-footer">
+                        <span class="price">₹1,00,000</span>
+                        <a href="cart/cart-camera.html" class="add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-name="suitcase">
+                <img src="https://images.unsplash.com/photo-1670888664952-efff442ec0d2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Suitcase">
+                <div class="product-info">
+                    <h3>Suitcase</h3>
+                    <p>Durable, Stylish Suitcase for Modern Travel.</p>
+                    <div class="product-footer">
+                        <span class="price">₹9,999</span>
+                        <a href="cart/cart-suitcase.html" class="add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-name="laptop">
+                <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Laptop">
+                <div class="product-info">
+                    <h3>Laptop</h3>
+                    <p>Powerful, Portable Laptop for Daily Use.</p>
+                    <div class="product-footer">
+                        <span class="price">₹1,00,749.25</span>
+                        <a href="cart/cart-laptop.html" class="add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Modern Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <style>
+        .search-box {
+            padding: 0.5rem;
+            width: 100%;
+            max-width: 400px;
+            margin-top: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .nav-links li a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            background: var(--primary-color);
+            border-radius: 5px;
+        }
+
+        .nav-links li a:hover {
+            background: #27ae60;
+        }
+    </style>
+</body>
+</html>

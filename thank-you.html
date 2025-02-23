@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Modern Store</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .thank-you-container {
+            background: white;
+            border-radius: 10px;
+            padding: 3rem;
+            margin: 2rem auto;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: var(--box-shadow);
+        }
+        .thank-you-container h2 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+        }
+        .thank-you-container p {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        .order-number {
+            background: #f8f9fa;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 1rem 0;
+        }
+        .continue-shopping {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--primary-color);
+            color: #27ae60;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 2rem;
+            transition: background-color 0.3s;
+        }
+        .continue-shopping:hover {
+            background: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="../index.html" class="brand">Modern Store</a>
+            <a href="cart.html" class="cart-button">
+                🛒 Cart
+            </a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="thank-you-container">
+            <h2>Thank You for Your Purchase! 🎉</h2>
+            <p>Your order has been confirmed and will be shipped soon.</p>
+            <p>You will receive an email confirmation shortly.</p>
+            <div class="order-number">
+                Order #: 2024021001
+            </div>
+            <a href="../index.html" class="continue-shopping">Continue Shopping</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Modern Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
